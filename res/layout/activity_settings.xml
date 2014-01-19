@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/testID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:textStyle="bold" 
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="20dp" >
+    </View>
+
+    <TextView
+        android:id="@+id/sizeID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sizeID"
+        android:textStyle="bold" 
+        android:textSize="18sp"/>
+    
+        <View
+        android:layout_width="1dp"
+        android:layout_height="10dp" >
+    </View>
+    
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/image_size"
+        android:prompt="@string/size_prompt" />
+    
+        <View
+        android:layout_width="1dp"
+        android:layout_height="20dp" >
+    </View>
+
+    <TextView
+        android:id="@+id/colorID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/colorID"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+    
+        <View
+        android:layout_width="1dp"
+        android:layout_height="10dp" >
+    </View>
+    
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/color_filter"
+        android:prompt="@string/color_prompt" />
+ 
+        <View
+        android:layout_width="1dp"
+        android:layout_height="20dp" >
+    </View>
+    
+    <TextView
+        android:id="@+id/typeID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/typeID"
+        android:textStyle="bold" 
+        android:textSize="18sp"/>
+    
+        <View
+        android:layout_width="1dp"
+        android:layout_height="10dp" >
+    </View>
+    
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/type_filter"
+        android:prompt="@string/type_prompt" />    
+
+        <View
+        android:layout_width="1dp"
+        android:layout_height="20dp" >
+    </View>
+    
+    <TextView
+        android:id="@+id/siteID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/siteID"
+        android:textStyle="bold" 
+        android:textSize="18sp"/>
+    
+        <View
+        android:layout_width="1dp"
+        android:layout_height="10dp" >
+    </View>
+    
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+
+    </EditText>
+    
+        <View
+        android:layout_width="1dp"
+        android:layout_height="20dp" >
+    </View>
+    
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit" />
+
+</LinearLayout>

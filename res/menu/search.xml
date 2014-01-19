@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/miSettings"
+        android:icon="@drawable/ic_settings"
+        android:onClick="onComposeAction"
+        android:showAsAction="ifRoom"
+        android:title="@string/settings">
+    </item>
+</menu>
